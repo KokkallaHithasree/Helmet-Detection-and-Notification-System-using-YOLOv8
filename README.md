@@ -28,37 +28,37 @@ The system uses advanced computer vision techniques and OCR to detect helmets an
 3. **Notification1.py :** Script to handle notifications using Twilio.
 Installation and Usage Instructions
 
+## Dataset Used
+The dataset collected from kaggle contains 120 images including classes with Helmet,without Helmet,Number Plate,Rider.\
+[Dataset](https://www.kaggle.com/datasets/aneesarom/rider-with-helmet-without-helmet-number-plate/data)
 ## Clone the repository:
 
-```bash```\
-git clone <repository_url>\
-cd <repository_directory>
+```git clone <https://github.com/KokkallaHithasree/Helmet-Detection-and-Notification-System-using-YOLOv8.git>```\
+```cd <Helmet-Detection-and-Notification-System-using-YOLOv8>```
 ## Install the required dependencies:
 
-```bash```\
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ## Train the YOLO model:
 Run the training.py script to train the YOLO model with your dataset.
 
-```bash```\
-python training.py
+```python training.py```
 ## Run the helmet detection system:
-Use the main.py script to start the helmet detection process.
+Use the main.py script to start the helmet detection and number plate extraction process.
 
-```bash```\
-python main.py
+```python main.py```
 
 ## Set up and send notifications:
 Configure the Twilio API credentials in the Notification1.py script and run it to send notifications to non-compliant riders.
 
-```bash```\
-python Notification1.py
+```python Notification1.py```
 
 ## Results
 
 - The system was tested under various lighting conditions and showed effective detection capabilities.
 - Notifications were successfully sent in user preferred language.
+## Demo Output Video
+
 ## Future Enhancements
 - Refining the model with robust dataset for more accurate results.
 - Additional refinement to improve extraction of number plate.
