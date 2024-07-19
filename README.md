@@ -25,7 +25,7 @@ The system uses advanced computer vision techniques and OCR to detect helmets an
 
 1. **training.py :** Script to train the YOLO model.
 2. **main.py :** Main script to run the helmet detection system.
-3. **Notification1.py :** Script to handle notifications using Twilio.
+3. **Notification.py :** Script to handle notifications using Twilio.
 Installation and Usage Instructions
 
 ## Dataset Used
@@ -51,7 +51,7 @@ Use the main.py script to start the helmet detection and number plate extraction
 ## Set up and send notifications:
 Configure the Twilio API credentials in the Notification1.py script and run it to send notifications to non-compliant riders.
 
-```python Notification1.py```
+```python Notification.py```
 
 ## Results
 
