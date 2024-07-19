@@ -1,0 +1,6 @@
+train: /Users/kokkallahithasree/Downloads/Real-Time-Detection-of-Helmet-Violations-and-Capturing-Bike-Numbers-from-Number-Plates-main/archive/train/images
+val: /Users/kokkallahithasree/Downloads/Real-Time-Detection-of-Helmet-Violations-and-Capturing-Bike-Numbers-from-Number-Plates-main/archive/val/images
+
+nc: 4
+
+names: ["with helmet", "without helmet", "rider", "number plate"]
