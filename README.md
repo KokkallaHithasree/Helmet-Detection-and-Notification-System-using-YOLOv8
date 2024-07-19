@@ -57,8 +57,7 @@ Configure the Twilio API credentials in the Notification1.py script and run it t
 
 - The system was tested under various lighting conditions and showed effective detection capabilities.
 - Notifications were successfully sent in user preferred language.
-## Demo Output Video
-![Alt Text](helmet.mp4)
+
 ## Future Enhancements
 - Refining the model with robust dataset for more accurate results.
 - Additional refinement to improve extraction of number plate.
